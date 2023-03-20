@@ -2,7 +2,7 @@
 @media screen and (max-width: 480px) {
     /* Header */
     .header {
-        flex-direction: column;
+        flex-direction: row;
     }
     .inside-h {
         flex-direction: column;
@@ -12,15 +12,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 8px 0;
-        gap: 40px;
+        margin: 8px 0 0 0;
+        font-size: 15px;
+        gap: 30px;
     }
     .header-logo {
-        height: 48px;
-        width: 48px;
-        margin-bottom: 8px;
+        height: 32px;
+        width: 32px;
     }
-    .my-photo {
+    .dogs-photo {
         width: 80%;
         height: auto;
         margin-top: 16px;
@@ -33,5 +33,14 @@
         padding: 8px;
         gap: 8px;
         width: 90%;
+    }
+    .spacer-c, .spacer-h {
+        flex-basis: 0px;
+    }
+    .banner h1 {
+        font-size: 20px;
+    }
+    .banner h3 {
+        font-size: 15px;
     }
 }
