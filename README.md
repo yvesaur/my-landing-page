@@ -1,4 +1,4 @@
-![alternative text](./img/header-logo.png "Logo image")
+<img src="./img/header-logo.png" alt="Logo" style="width:200px;height:200px;"/>
 
 # My Landing Page
 
