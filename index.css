@@ -21,7 +21,7 @@ ul {
     gap: 8px;
     margin: 0;
     padding: 0;
-    overflow: auto;
+    flex-wrap: wrap;
 }
 
 a {
@@ -60,7 +60,11 @@ h1 {
     flex-direction: column;
     flex: 1 1 auto;
 
-    gap: 24px;
+    gap: 32px;
+}
+
+.inside-h .navbar ul li:hover {
+    transform: scale(1.05) translate(0,-1%);
 }
 
 .header-logo{
@@ -70,12 +74,12 @@ h1 {
     
 }
 
-.dogs-photo {
+.yves-photo {
     height: auto;
     width: 400px;
 
     border: 3px rgb(56, 54, 54) dashed;
-    border-radius: 5%;
+    border-radius: 50%;
 }
 
 .navbar {
@@ -163,7 +167,7 @@ a {
 
 .album a img {
     width: 250px;
-    height: auto;
+    height: 250px;
 
     border: 8px #3E527A solid;
     border-radius: 10%;
